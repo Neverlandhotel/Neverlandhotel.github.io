@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+	<style type="text/css">
+	header{
+		background-image: url(bg.jpg);
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+	}
+	body{
+		background-image: url(bg1.jpg);
+		height: 100vh;
+		background-size: cover;
+		background-position: center;
+		font-family: Georgia, "Times New Roman", serif;
+	}
+	.wrapper{
+		width: 720px;
+		margin: 0px auto;
+	}
+	.header{
+		margin: 40px 0px 20px 0px;
+	}
+	.entry{
+		width: 220px;
+		float: left;
+		margin: 10px;
+		height: 198px;
+	}
+		td {
+			background-color: #ffff;
+			padding: 15px;
+			border: 0px solid #000000;}
+		table.one {
+			border-spacing: 5px 15px;}
+		table.two {
+			border-collapse: collapse;}
+		.main-nav{
+			float: right;
+			list-style: none;
+			margin-top: 5px;
+		}
+		
+		.main-nav li{
+			display: inline-block;
+			border: 1px solid white;
+		}
+		.main-nav li a{
+			color: white;
+			text-decoration: none;
+			padding: 3px 20px;
+			font-family: "Roboto", sans-serif
+			font-size: 15px;
+		}
+		.main-nav li a:hover{
+			background-color: darkorange;
+		}
+		.main-nav li.active a{
+			background-color: darkorange;
+		}
+		legend{
+			dispay:block;
+			padding-right:2px;
+			paddind-left:2px;
+			border:none;
+}
+	</style>
+</head>
+<body>
+	<div>
+		<ul class="main-nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="registration.html">Registration</a></li>
+			<li><a href="contacts.html">Contacts</a></li>
+			<li><a href="about.html">About</a></li>
+			<li class="active"><a href="feedback.html">Feedback</a></li>
+		</ul>
+	</div>
+</style>
+</head>
+<body">
+<center><h1><strong>feedback form</h1></strong></center>
+<hr/>
+<fieldset>
+<legend>feedback:</center></legend>
+<center><p>please fill out this form to help us improve our sevices to customers</center></P>
+<form method="post"action="thankyou.html">
+<p><input type="hidden"name="recipient"value="jimmiemathew19@gmail.com">
+<input type="hidden"name="subject"value="feedback form">
+<input type="hidden"name="redirect"vale="index.html">
+</p>
+<center><p><label>name:<input type="text"name="name"size="30"required></label></p></center>
+<center><p><label>comments:<textarea name="comments"rows="5"cols="40"></textarea></label></p></center>
+<center><p><label>email address:<input type="password"name="email"size="25"></label></center>
+</p>
+<center><p><strong>Things you liked:</strong><br></center></p>
+<p>
+<center><label>site design<input type="checkbox"name="thingsliked"value="Design"></label></center>
+<center><label>staff<input type="checkbox"name="thingsliked"value="staff"></label></center>
+<center><label>food<input type="checkbox"name="thingsliked"value="foods"></label></center>
+<center><label>accomodations<input type="checkbox"name="thinsliked"value="accomodations"></label></center>
+</p>
+<p>
+<center><p><strong>how did you here about us?.</center></strong></p><br>
+<center><label>search engine<input type="radio"name="how get to site"value="search engine"checked></center></label>
+<center><label>links from other sites<input type="radio"name="how get to site"value="links"></center></label>
+<center><label>friends & family members<input type="radio"name="how get to site"value="friends &family members"></center></label>
+<center><label>other<input type="radio"name="how get to site"value="other"></center></label>
+</p>
+<p>
+<center><p><label>rate us:</p>
+<center><select name="rating"></center>
+<option selected>Amaizing</option>
+<option>5</option>
+<option>4</option>
+<option>3</option>
+<option>2</option>
+<option>1</option>
+</selected>
+</label>
+</p>
+<p>
+<center><input type="submit"value="submit your entries"></center>
+<center><input type="reset"value="clear entries"></center>
+</p>
+</fieldset>
+</form>
+</body>
+</html>
+
